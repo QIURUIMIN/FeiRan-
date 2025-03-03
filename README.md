@@ -1,2 +1,8 @@
 # FeiRan-
 Quantitative based Chinese text recognition and visualization
+
+Perform text recognition on a piece of text and visualize some data. Based on previous research on literary style, we have constructed a Chinese text literary style feature system. From the four language dimensions of words, phrases, sentences, and discourse, we summarize the expression of literary style into six literary style dimensions: color beauty, sound beauty, decoration beauty, emotional beauty, image beauty, and philosophical beauty. We have set 185 specific measurement indicators to calculate the literary style of the text, and finally obtained the level of literary style (divided into three levels: 1, 2, and 3) and visualized some measurement indicators.
+
+Due to the different specific forms of expression of texts in different language styles, in order to establish a unified standard, we only choose literary and artistic language style analysis and mainly select famous prose as the representative corpus. Any text that has outstanding performance in sound, decoration, color, emotion, image, or philosophy is considered a literary fragment.
+
+Based on the above feature system and measurement indicators, we use machine learning methods to test the effectiveness of various language features in the feature system. We use support vector machines as classifiers to construct the model, and use accuracy, recall, and precision as indicators to measure the validity of the model. We calculated the classification performance of language features in each dimension separately; Then, through random forest screening, the final optimal model is formed.
